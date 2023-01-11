@@ -6,9 +6,9 @@
 
 | Syntax               | Statements            | Functions             | Data structures     | Process & style      |
 |----------------------|-----------------------|-----------------------|---------------------|----------------------|
-| 🟩 value             | 🟩 if                 | 🟩 recursion          | 🟦 array            | 🟦 refactoring       |
-| 🟩 identifier        | 🟩 loops              | 🟩 function           | 🟦 instance         | 🟦 code review       |
-| 🟩 variable          | 🟩 assignment         | 🟩 return             | 🟦 object           | 🟦 antipatterns      |
+| 🟩 value             | 🟩 if                 | 🟩 recursion          | 🟦 array            | 🟩 refactoring       |
+| 🟩 identifier        | 🟩 loops              | 🟩 function           | 🟦 instance         | 🟩 code review       |
+| 🟩 variable          | 🟩 assignment         | 🟩 return             | 🟦 object           | 🟩 antipatterns      |
 | 🟩 constant          | 🟩 prototype          | 🟩 signature          | 🟦 collection       | 🟦 paradigm          |
 | 🟩 scalar            | 🟩 class              | 🟩 argument           | 🟦 hash table       | 🟦 algorithm         |
 | 🟩 literal           | 🟩 while              | 🟩 parameter          | 🟦 linked list      | 🟦 magic numbers     |
@@ -26,11 +26,11 @@
 | 🟩 generator         | 🟩 switch             | ⬜ compose            | ⬜️ Symbol           | 🟦 linter            |
 | 🟩 async function    | 🟩 new Error          | ⬜️ memoize            | 🟨 string parsing   | ⬜️ prettier          |
 | 🟩 call, bind, apply |                       | 🟦 factory            | 🟨 timers           | 🟦 unittest          |
-| 🟩 Array             |                       | 🟦 pool               | 🟨 EventEmitter     | 🟦 git               |
-| 🟩 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟦 github            |
-| 🟩 ...spread         |                       | 🟩 default parameters | 🟨 global           | 🟨 node.js           |
-| 🟩 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
-| 🟩 typeof            |                       |                       | 🟦 null             |                      |
+| 🟩 Array             |                       | 🟦 pool               | 🟨 EventEmitter     | 🟩 git               |
+| 🟩 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟩 github            |
+| 🟩 ...spread         |                       | 🟩 default parameters | 🟩 global           | 🟩 node.js           |
+| 🟩 ...rest           |                       |                       | 🟩 undefined        | 🟩 npm               |
+| 🟩 typeof            |                       |                       | 🟩 null             |                      |
 
 ## Multi-paradigm programming
 
@@ -41,9 +41,9 @@
 | 🟩 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
 | 🟩 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
 | 🟩 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
-| 🟩 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
+| ⬜ Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
 | 🟩 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
+| 🟩 Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
 | 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          |
 | 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          |
